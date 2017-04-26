@@ -11,7 +11,7 @@ $(document).ready(function(){
     $(".lastName").text(lastNameInput);
     $(".address").text(addressInput);
     $(".city").text(cityInput);
-    $(".state").text(stateInput);
+    $(".state").text(stateInput.toUpperCase());
     $(".zip").text(zipInput);
 
     $("#letter").show();
